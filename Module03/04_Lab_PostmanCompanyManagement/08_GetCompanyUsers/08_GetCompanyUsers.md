@@ -10,10 +10,11 @@ https://api-b2b.bigcommerce.com/api/v3/io/users?companyId={{company_id}}
 
 Headers:
 
-| Header    | Value            |
-|-----------|------------------|
-| Accept    | application/json |
-| authToken | {{b2b_v3_token}} |
+| Header       | Value            |
+|--------------|------------------|
+| Accept       | application/json |
+| Content-Type | application/json |
+| authToken    | {{b2b_v3_token}} |
 
 Post-response Script:
 ```javascript

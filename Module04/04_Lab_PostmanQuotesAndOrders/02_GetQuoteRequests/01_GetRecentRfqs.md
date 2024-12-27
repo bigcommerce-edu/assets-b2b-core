@@ -10,10 +10,11 @@ https://api-b2b.bigcommerce.co`m/api/v3/io/rfq?minCreated={{quote_min_created_at
 
 Headers:
 
-| Header    | Value            |
-|-----------|------------------|
-| Accept    | application/json |
-| authToken | {{b2b_v3_token}} |
+| Header       | Value            |
+|--------------|------------------|
+| Accept       | application/json |
+| Content-Type | application/json |
+| authToken    | {{b2b_v3_token}} |
 
 Pre-request Script:
 ```javascript

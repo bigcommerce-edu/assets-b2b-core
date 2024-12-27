@@ -16,10 +16,11 @@ Params:
 
 Headers:
 
-| Header    | Value            |
-|-----------|------------------|
-| Accept    | application/json |
-| authToken | {{b2b_v3_token}} |
+| Header       | Value            |
+|--------------|------------------|
+| Accept       | application/json |
+| Content-Type | application/json |
+| authToken    | {{b2b_v3_token}} |
 
 Post-response Script:
 ```javascript
