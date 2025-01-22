@@ -33,7 +33,8 @@ POST https://api-b2b.bigcommerce.com/api/v3/io/companies
     "adminFirstName": "John",
     "adminLastName": "Foo",
     "adminEmail": "email@company.com",
-    "adminPhoneNumber": "222-333-4444"
+    "adminPhoneNumber": "222-333-4444",
+    "customerGroupId": 4
 }
 ```
 
@@ -51,16 +52,6 @@ PUT https://api-b2b.bigcommerce.com/api/v3/io/companies/{companyId}
     "state": "{Your state}",
     "country": "{Your country}",
     "zipCode": "{Your zip code}"
-}
-```
-
-## Update a Company's Catalog
-
-```
-PUT https://api-b2b.bigcommerce.com/api/v3/io/companies/{companyId}/catalogs
-
-{
-  "catalogId": "{BigCommerce priceListId}"
 }
 ```
 
@@ -114,6 +105,8 @@ GET https://api-b2b.bigcommerce.com/api/v3/io/users?companyId={{company_id}}
 
 ## Create a User
 
+**Example using static role:**
+
 ```
 POST https://api-b2b.bigcommerce.com/api/v3/io/users
 
@@ -123,7 +116,22 @@ POST https://api-b2b.bigcommerce.com/api/v3/io/users
     "firstName": "Jack",
     "lastName": "Foo",
     "phoneNumber": "444-777-9999",
-    "companyRoleId": 2
+    "role": 2
+}
+```
+
+**Example using companyRoleId:**
+
+```
+POST https://api-b2b.bigcommerce.com/api/v3/io/users
+
+{
+    "companyId": {{company_id}},
+    "email": "email@company.com",
+    "firstName": "Jack",
+    "lastName": "Foo",
+    "phoneNumber": "444-777-9999",
+    "companyRoleId": 11223
 }
 ```
 

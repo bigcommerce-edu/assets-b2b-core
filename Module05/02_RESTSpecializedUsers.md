@@ -54,6 +54,20 @@ PUT https://api-b2b.bigcommerce.com/api/v3/io/companies/{companyId}/super-admins
 }
 ```
 
+### Create a Super Admin User
+
+```
+POST https://api-b2b.bigcommerce.com/api/v3/io/super-admins
+
+{
+  "firstName": "Tom",
+  "lastName": "Cat",
+  "phone": "0000000000",
+  "email": "Tom@gmail.com",
+  "uuid": ""
+}
+```
+
 ### Update a Super Admin
 
 ```
@@ -80,20 +94,6 @@ GET https://api-b2b.bigcommerce.com/api/v3/io/companies/super-admins
 
 ```
 GET https://api-b2b.bigcommerce.com/api/v3/io/super-admins/{superAdminId}/companies
-```
-
-### Create a Super Admin User
-
-```
-POST https://api-b2b.bigcommerce.com/api/v3/io/super-admins
-
-{
-  "firstName": "Tom",
-  "lastName": "Cat",
-  "phone": "0000000000",
-  "email": "Tom@gmail.com",
-  "uuid": ""
-}
 ```
 
 [Next](../Module06/02_DefaultBuyerPortalSettings.md)
