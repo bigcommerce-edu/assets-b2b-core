@@ -1,7 +1,7 @@
 {
 	"info": {
 		"_postman_id": "048995e6-6333-4291-88f9-d83cbb7b09ed",
-		"name": "B2B Essentials Labs",
+		"name": "B2B Core Labs",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
 		"_exporter_id": "5974844",
 		"_collection_link": "https://lunar-sunset-473461.postman.co/workspace/BigCommerce-Dev-EDU~4b3675d4-fdbc-4360-898f-17d425e15d10/collection/5974844-048995e6-6333-4291-88f9-d83cbb7b09ed?action=share&source=collection_link&creator=5974844"
@@ -66,7 +66,7 @@
 						],
 						"body": {
 							"mode": "raw",
-							"raw": "{\n    \"companyName\": \"Jane's Widgets\",\n    \"companyPhone\": \"111-222-3333\",\n    \"companyEmail\": \"janedoe@example.com\",\n    \"addressLine1\": \"987 Park Place\",\n    \"city\": \"Austin\",\n    \"state\": \"Texas\",\n    \"country\": \"United States\",\n    \"zipCode\": \"78726\",\n    \"adminFirstName\": \"Jane\",\n    \"adminLastName\": \"Doe\",\n    \"adminEmail\": \"janedoe@example.com\",\n    \"adminPhoneNumber\": \"222-333-4444\"\n}",
+							"raw": "{\n    \"companyName\": \"Jane's Widgets\",\n    \"companyPhone\": \"111-222-3333\",\n    \"companyEmail\": \"janedoe@example.com\",\n    \"addressLine1\": \"987 Park Place\",\n    \"city\": \"Austin\",\n    \"state\": \"Texas\",\n    \"country\": \"United States\",\n    \"zipCode\": \"78726\",\n    \"adminFirstName\": \"Jane\",\n    \"adminLastName\": \"Doe\",\n    \"adminEmail\": \"janedoe@example.com\",\n    \"adminPhoneNumber\": \"222-333-4444\",\n    \"channelIds\": [<Channel ID>]\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -558,7 +558,7 @@
 						],
 						"body": {
 							"mode": "raw",
-							"raw": "{\n    \"companyName\": \"Jane's Widgets\",\n    \"companyPhone\": \"111-222-3333\",\n    \"companyEmail\": \"janedoe@example.com\",\n    \"addressLine1\": \"987 Park Place\",\n    \"city\": \"Austin\",\n    \"state\": \"Texas\",\n    \"country\": \"United States\",\n    \"zipCode\": \"78726\",\n    \"adminFirstName\": \"Jane\",\n    \"adminLastName\": \"Doe\",\n    \"adminEmail\": \"janedoe@example.com\",\n    \"adminPhoneNumber\": \"222-333-4444\"\n}",
+							"raw": "{\n    \"companyName\": \"Jane's Widgets\",\n    \"companyPhone\": \"111-222-3333\",\n    \"companyEmail\": \"janedoe@example.com\",\n    \"addressLine1\": \"987 Park Place\",\n    \"city\": \"Austin\",\n    \"state\": \"Texas\",\n    \"country\": \"United States\",\n    \"zipCode\": \"78726\",\n    \"adminFirstName\": \"Jane\",\n    \"adminLastName\": \"Doe\",\n    \"adminEmail\": \"janedoe@example.com\",\n    \"adminPhoneNumber\": \"222-333-4444\",\n    \"channelIds\": [{{storefront_channel_id}}]\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -2084,7 +2084,7 @@
 						],
 						"body": {
 							"mode": "raw",
-							"raw": "{\n    \"companyId\": <Company ID>,\n    \"email\": \"jilldoe@example.com\",\n    \"firstName\": \"Jill\",\n    \"lastName\": \"Doe\",\n    \"phoneNumber\": \"444-777-9999\",\n    \"companyRoleId\": <Junior Buyer role ID>\n}",
+							"raw": "{\n    \"companyId\": <Company ID>,\n    \"email\": \"jilldoe@example.com\",\n    \"firstName\": \"Jill\",\n    \"lastName\": \"Doe\",\n    \"phoneNumber\": \"444-777-9999\",\n    \"companyRoleId\": <Junior Buyer role ID>,\n    \"channelIds\": [<Channel ID>]\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -2165,7 +2165,7 @@
 						],
 						"body": {
 							"mode": "raw",
-							"raw": "{\n    \"companyId\": <Company ID>,\n    \"email\": \"jilldoe@example.com\",\n    \"firstName\": \"Jill\",\n    \"lastName\": \"Doe\",\n    \"phoneNumber\": \"444-777-9999\",\n    \"role\": 2\n}",
+							"raw": "{\n    \"companyId\": <Company ID>,\n    \"email\": \"jilldoe@example.com\",\n    \"firstName\": \"Jill\",\n    \"lastName\": \"Doe\",\n    \"phoneNumber\": \"444-777-9999\",\n    \"role\": 2,\n    \"channelIds\": [<Channel ID>]\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -2378,13 +2378,13 @@
 							},
 							{
 								"key": "authToken",
-								"value": "{{b2b_token}}",
+								"value": "{{b2b_v3_token}}",
 								"type": "text"
 							}
 						],
 						"body": {
 							"mode": "raw",
-							"raw": "{\n    \"email\": \"chris.nanninga+rest-junior-3@bigcommerce.com\",\n    \"firstName\": \"Jack\",\n    \"lastName\": \"Foo\",\n    \"phoneNumber\": \"444-777-9999\",\n    \"role\": 1\n}",
+							"raw": "{\n    \"email\": \"jackfoo@example.com\",\n    \"firstName\": \"Jack\",\n    \"lastName\": \"Foo\",\n    \"phoneNumber\": \"444-777-9999\",\n    \"role\": 1\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -2459,7 +2459,7 @@
 							},
 							{
 								"key": "authToken",
-								"value": "{{b2b_token}}",
+								"value": "{{b2b_v3_token}}",
 								"type": "text"
 							}
 						],
@@ -2723,7 +2723,7 @@
 						],
 						"body": {
 							"mode": "raw",
-							"raw": "{\n    \"companyId\": {{company_id}},\n    \"email\": \"jilldoe@example.com\",\n    \"firstName\": \"Jill\",\n    \"lastName\": \"Doe\",\n    \"phoneNumber\": \"444-777-9999\",\n    \"companyRoleId\": {{junior_role_id}}\n}",
+							"raw": "{\n    \"companyId\": {{company_id}},\n    \"email\": \"jilldoe@example.com\",\n    \"firstName\": \"Jill\",\n    \"lastName\": \"Doe\",\n    \"phoneNumber\": \"444-777-9999\",\n    \"companyRoleId\": {{junior_role_id}},\n    \"channelIds\": [{{storefront_channel_id}}]\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -2807,7 +2807,7 @@
 						],
 						"body": {
 							"mode": "raw",
-							"raw": "{\n    \"companyId\": {{company_id}},\n    \"email\": \"jilldoe@example.com\",\n    \"firstName\": \"Jill\",\n    \"lastName\": \"Doe\",\n    \"phoneNumber\": \"444-777-9999\",\n    \"role\": 2\n}",
+							"raw": "{\n    \"companyId\": {{company_id}},\n    \"email\": \"jilldoe@example.com\",\n    \"firstName\": \"Jill\",\n    \"lastName\": \"Doe\",\n    \"phoneNumber\": \"444-777-9999\",\n    \"role\": 2,\n    \"channelIds\": [{{storefront_channel_id}}]\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -3020,13 +3020,13 @@
 							},
 							{
 								"key": "authToken",
-								"value": "{{b2b_token}}",
+								"value": "{{b2b_v3_token}}",
 								"type": "text"
 							}
 						],
 						"body": {
 							"mode": "raw",
-							"raw": "{\n    \"email\": \"chris.nanninga+rest-junior-3@bigcommerce.com\",\n    \"firstName\": \"Jack\",\n    \"lastName\": \"Foo\",\n    \"phoneNumber\": \"444-777-9999\",\n    \"role\": 1\n}",
+							"raw": "{\n    \"email\": \"jackfoo@example.com\",\n    \"firstName\": \"Jack\",\n    \"lastName\": \"Foo\",\n    \"phoneNumber\": \"444-777-9999\",\n    \"role\": 1\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -3103,7 +3103,7 @@
 							},
 							{
 								"key": "authToken",
-								"value": "{{b2b_token}}",
+								"value": "{{b2b_v3_token}}",
 								"type": "text"
 							}
 						],
