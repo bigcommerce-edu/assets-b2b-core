@@ -39,5 +39,3 @@ pm.test('Response includes quote with number', () => {
     ).to.be.a('string');
 });
 ```
-
-[Next](../03_ExportQuotePdf/03_ExportQuotePdf.md)

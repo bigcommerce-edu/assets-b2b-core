@@ -55,5 +55,3 @@ if (Array.isArray(orders) && orders.length > 0) {
     pm.collectionVariables.set('bc_order_id', orders[0].bcOrderId);
 }
 ```
-
-[Next](../06_GetOrderDetails/01_GetOrder.md)

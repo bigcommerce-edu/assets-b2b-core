@@ -46,5 +46,3 @@ pm.test('Operation was successful', () => {
     ).to.be.eq('SUCCESS');
 });
 ```
-
-[Next](../06_CreateAddress/06_CreateAddress.md)

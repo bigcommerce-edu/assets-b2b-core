@@ -45,5 +45,3 @@ if (Array.isArray(companies)) {
     }
 }
 ```
-
-[Next](./02_ApproveCompany.md)

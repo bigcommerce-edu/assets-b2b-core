@@ -47,5 +47,3 @@ pm.test('Response contains at least one item with ID', () => {
     ).to.be.a('number');
 });
 ```
-
-[Next](../../05_Lab_PostmanInvoicesAndPayments/01_CreateInvoice/01_CreateInvoice.md)

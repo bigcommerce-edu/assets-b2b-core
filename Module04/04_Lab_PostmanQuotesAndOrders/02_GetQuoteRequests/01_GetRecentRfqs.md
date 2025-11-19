@@ -53,5 +53,3 @@ if (Array.isArray(quotes) && quotes.length > 0) {
     pm.collectionVariables.set('quote_id', quotes[0].quoteId);
 }
 ```
-
-[Next](./02_GetQuoteDetails.md)

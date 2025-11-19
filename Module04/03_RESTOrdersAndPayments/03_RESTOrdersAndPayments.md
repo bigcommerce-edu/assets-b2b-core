@@ -155,5 +155,3 @@ PUT https://api-b2b.bigcommerce.com/api/v3/io/companies/{companyId}/payments
   ]
 }
 ```
-
-[Next](../04_Lab_PostmanQuotesAndOrders/02_GetQuoteRequests/01_GetRecentRfqs.md)

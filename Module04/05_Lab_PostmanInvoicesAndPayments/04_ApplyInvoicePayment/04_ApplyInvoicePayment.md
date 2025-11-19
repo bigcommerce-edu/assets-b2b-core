@@ -62,5 +62,3 @@ pm.test('Response included payment ID', () => {
 pm.collectionVariables.unset('payment_id');
 pm.collectionVariables.set('payment_id', paymentId);
 ```
-
-[Next](../05_GetInvoicePayments/05_GetInvoicePayments.md)

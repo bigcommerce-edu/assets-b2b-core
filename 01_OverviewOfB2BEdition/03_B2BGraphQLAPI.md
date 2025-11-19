@@ -48,5 +48,3 @@ mutation Login($jwt: String!) {
  }
 }
 ```
-
-[Next](../Module02/01_Authentication/01_Authentication.md)

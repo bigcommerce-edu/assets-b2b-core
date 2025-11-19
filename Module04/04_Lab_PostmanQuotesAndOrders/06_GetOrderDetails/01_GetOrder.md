@@ -39,5 +39,3 @@ pm.test('Response contained an order with ID', () => {
     ).to.be.a('number');
 });
 ```
-
-[Next](./02_GetOrderProducts.md)

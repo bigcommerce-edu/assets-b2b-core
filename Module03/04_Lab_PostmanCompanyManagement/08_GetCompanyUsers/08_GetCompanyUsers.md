@@ -37,5 +37,3 @@ pm.test('Response contains at least one user', () => {
     ).to.be.greaterThan(0);
 });
 ```
-
-[Next](../09_CreateJuniorBuyer/01_GetRoles.md)

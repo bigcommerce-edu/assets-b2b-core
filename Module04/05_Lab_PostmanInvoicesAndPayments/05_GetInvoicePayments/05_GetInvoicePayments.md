@@ -37,5 +37,3 @@ pm.test('Response contains at least one payment', () => {
     ).to.be.greaterThan(0);
 });
 ```
-
-[Next](../07_UpdatePaymentStatus/07_UpdatePaymentStatus.md)

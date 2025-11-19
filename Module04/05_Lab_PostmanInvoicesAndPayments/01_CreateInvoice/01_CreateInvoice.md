@@ -49,5 +49,3 @@ pm.test('Response includes invoice with ID', () => {
 pm.collectionVariables.unset('invoice_id');
 pm.collectionVariables.set('invoice_id', invoice?.invoiceId);
 ```
-
-[Next](../02_GetInvoices/01_GetOpenInvoices.md)

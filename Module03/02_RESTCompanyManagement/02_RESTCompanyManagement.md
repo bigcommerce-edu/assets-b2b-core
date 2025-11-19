@@ -134,5 +134,3 @@ POST https://api-b2b.bigcommerce.com/api/v3/io/users
     "companyRoleId": 11223
 }
 ```
-
-[Next](../03_RESTCompanySettings/03_RESTCompanySettings.md)

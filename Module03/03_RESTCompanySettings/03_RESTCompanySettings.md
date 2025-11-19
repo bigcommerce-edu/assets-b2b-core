@@ -82,5 +82,3 @@ PUT https://api-b2b.bigcommerce.com/api/v3/io/companies/{companyId}/payment-term
   "paymentTerms": 30
 }
 ```
-
-[Next](../04_Lab_PostmanCompanyManagement/01_CreateCompany/01_CreateCompany.md)

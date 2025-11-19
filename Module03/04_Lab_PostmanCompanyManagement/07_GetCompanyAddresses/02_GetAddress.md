@@ -39,5 +39,3 @@ pm.test('Response included address with ID', () => {
     ).to.be.a('number');
 });
 ```
-
-[Next](../08_GetCompanyUsers/08_GetCompanyUsers.md)

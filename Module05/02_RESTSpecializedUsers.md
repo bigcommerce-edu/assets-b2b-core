@@ -95,5 +95,3 @@ GET https://api-b2b.bigcommerce.com/api/v3/io/companies/super-admins
 ```
 GET https://api-b2b.bigcommerce.com/api/v3/io/super-admins/{superAdminId}/companies
 ```
-
-[Next](../Module06/02_DefaultBuyerPortalSettings.md)

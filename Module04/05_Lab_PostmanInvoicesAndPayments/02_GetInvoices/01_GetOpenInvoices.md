@@ -48,5 +48,3 @@ pm.test('Response includes at least one invoice', () => {
     ).to.be.greaterThan(0);
 });
 ```
-
-[Next](./02_GetInvoice.md)

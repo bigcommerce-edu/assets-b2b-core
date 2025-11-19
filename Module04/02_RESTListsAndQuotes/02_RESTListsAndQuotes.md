@@ -170,5 +170,3 @@ POST   https://api-b2b.bigcommerce.com/api/v3/io/rfq/emails
 ```
 POST  https://api-b2b.bigcommerce.com/api/v3/io/rfq/{quote_id}/pdf-export
 ```
-
-[Next](../03_RESTOrdersAndPayments/03_RESTOrdersAndPayments.md)

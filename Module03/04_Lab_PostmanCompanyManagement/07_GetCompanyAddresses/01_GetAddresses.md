@@ -37,5 +37,3 @@ pm.test('Response includes at least one address', () => {
     ).to.be.greaterThan(0);
 });
 ```
-
-[Next](./02_GetAddress.md)

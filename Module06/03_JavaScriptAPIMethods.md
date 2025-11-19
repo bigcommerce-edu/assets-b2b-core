@@ -249,5 +249,3 @@ window.b2b.utils.user.setMasqueradeCompany(123456);
 ```javascript
 window.b2b.utils.user.endMasquerade();
 ```
-
-[Next](./04_CustomizingBuyerPortal.md)

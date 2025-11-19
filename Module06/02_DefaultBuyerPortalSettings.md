@@ -32,5 +32,3 @@ color: white;
 font-family: Volkhov, Arial, Helvetica, sans-serif;
 box-shadow: 6px 5px 5px #999999;
 ```
-
-[Next](./03_JavaScriptAPIMethods.md)

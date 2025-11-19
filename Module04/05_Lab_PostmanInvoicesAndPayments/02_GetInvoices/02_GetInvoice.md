@@ -39,5 +39,3 @@ pm.test('Response contained an invoice with ID', () => {
     ).to.be.a('number');
 });
 ```
-
-[Next](../03_ExportInvoicePdf/03_ExportInvoicePdf.md)

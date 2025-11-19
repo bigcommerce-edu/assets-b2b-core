@@ -48,5 +48,3 @@ pm.test('Operation was successful', () => {
     ).to.be.eq('SUCCESS');
 });
 ```
-
-[Next](./02_DeleteCompany.md)

@@ -39,5 +39,3 @@ pm.test('Response includes a company with ID', () => {
     ).to.be.a('number');
 });
 ```
-
-[Next](../04_UpdateAndDeleteCompany/01_UpdateCompany.md)

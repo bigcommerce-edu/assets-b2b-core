@@ -39,5 +39,3 @@ pm.test('Response includes user with ID', () => {
     ).to.be.a('number');
 });
 ```
-
-[Next](../../../Module04/02_RESTListsAndQuotes/02_RESTListsAndQuotes.md)

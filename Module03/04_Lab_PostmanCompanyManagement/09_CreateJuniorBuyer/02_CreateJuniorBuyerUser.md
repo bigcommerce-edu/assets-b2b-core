@@ -55,5 +55,3 @@ pm.test('Response contains user with ID', () => {
 pm.collectionVariables.unset('user_id');
 pm.collectionVariables.set('user_id', user?.userId);
 ```
-
-[Next](../10_GetUser/10_GetUser.md)

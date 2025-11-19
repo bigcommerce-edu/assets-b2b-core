@@ -41,5 +41,3 @@ pm.test('Operation was successful', () => {
 
 pm.collectionVariables.unset('company_id');
 ```
-
-[Next](../05_ApproveCompany/01_GetUnapprovedCompanies.md)

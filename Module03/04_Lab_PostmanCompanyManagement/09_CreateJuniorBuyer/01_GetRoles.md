@@ -48,5 +48,3 @@ if (Array.isArray(roles)) {
     pm.collectionVariables.set('junior_role_id', parseInt(juniorRole?.id));
 }
 ```
-
-[Next](./02_CreateJuniorBuyerUser.md)

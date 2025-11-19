@@ -46,5 +46,3 @@ pm.test('Response included quote URL', () => {
     ).to.be.a('string');
 });
 ```
-
-[Next](../04_GetQuoteCheckoutUrl/04_GetQuoteCheckoutUrl.md)

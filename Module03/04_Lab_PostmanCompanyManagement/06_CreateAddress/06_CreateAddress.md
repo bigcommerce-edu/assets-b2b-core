@@ -64,5 +64,3 @@ pm.test('Response included address with ID', () => {
 pm.collectionVariables.unset('address_id');
 pm.collectionVariables.set('address_id', address?.addressId);
 ```
-
-[Next](../07_GetCompanyAddresses/01_GetAddresses.md)

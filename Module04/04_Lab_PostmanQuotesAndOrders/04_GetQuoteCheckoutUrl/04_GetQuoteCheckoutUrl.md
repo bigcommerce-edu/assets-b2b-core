@@ -46,5 +46,3 @@ pm.test('Response includes checkout URL', () => {
     ).to.be.a('string');
 });
 ```
-
-[Next](../05_GetRecentOrders/05_GetRecentOrders.md)

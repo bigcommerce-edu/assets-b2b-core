@@ -61,5 +61,3 @@ pm.test('Response includes a company with ID', () => {
 pm.collectionVariables.unset('company_id');
 pm.collectionVariables.set('company_id', company?.companyId);
 ```
-
-[Next](../02_GetCompanies/01_GetCompanies.md)

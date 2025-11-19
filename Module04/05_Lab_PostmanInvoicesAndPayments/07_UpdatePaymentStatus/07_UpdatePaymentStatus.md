@@ -46,5 +46,3 @@ pm.test('Operation was successful', () => {
     ).to.be.eq('SUCCESS');
 });
 ```
-
-[Next](../../../Module05/02_RESTSpecializedUsers.md)

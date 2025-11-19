@@ -39,5 +39,3 @@ pm.test('Response contained a download URL', () => {
     ).to.be.a('string');
 });
 ```
-
-[Next](../04_ApplyInvoicePayment/04_ApplyInvoicePayment.md)
