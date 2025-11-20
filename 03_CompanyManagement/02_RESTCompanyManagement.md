@@ -34,7 +34,8 @@ POST https://api-b2b.bigcommerce.com/api/v3/io/companies
     "adminLastName": "Foo",
     "adminEmail": "email@company.com",
     "adminPhoneNumber": "222-333-4444",
-    "customerGroupId": 4
+    "customerGroupId": 4,
+    "channelIds": [1]
 }
 ```
 
@@ -112,6 +113,7 @@ POST https://api-b2b.bigcommerce.com/api/v3/io/users
 
 {
     "companyId": {{company_id}},
+    "channelIds": [1],
     "email": "email@company.com",
     "firstName": "Jack",
     "lastName": "Foo",
@@ -127,6 +129,7 @@ POST https://api-b2b.bigcommerce.com/api/v3/io/users
 
 {
     "companyId": {{company_id}},
+    "channelIds": [1],
     "email": "email@company.com",
     "firstName": "Jack",
     "lastName": "Foo",

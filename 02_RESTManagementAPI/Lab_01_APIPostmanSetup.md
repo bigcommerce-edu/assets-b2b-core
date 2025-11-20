@@ -58,7 +58,7 @@ The correct value must be selected from the environment drop-down whenever you s
 
 ## Step 3: Create Your First Request
 
-1. **Create** a new HTTP request and **save** it to your collection with the name "Get Company Roles."
+1. **Create** a new HTTP request called "Get Company Roles."
 2. In the Headers tab, use the Presets drop-down to **Manage Presets**, then **add** a header preset with the following values, saving it with a name like "B2B REST."
 
 
@@ -88,4 +88,6 @@ This headers Preset will allow you to apply the same headers to all subsequent r
 
 If your configuration is correct, you should see a list of your store's company roles in the response. At minimum, this should include the built-in Admin, Senior Buyer, and Junior Buyer roles.
 
-* [B2B Edition API Authentication](https://developer.bigcommerce.com/b2b-edition/docs/authentication)
+## Step 4: Import Collection
+
+Import the [B2B Core Labs collection](../B2B%20Core%20Labs.postman_collection.json).
