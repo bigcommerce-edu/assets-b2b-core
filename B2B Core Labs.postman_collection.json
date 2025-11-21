@@ -72,7 +72,7 @@
 						],
 						"body": {
 							"mode": "raw",
-							"raw": "{\n    \"companyName\": \"Jane's Widgets\",\n    \"companyPhone\": \"111-222-3333\",\n    \"companyEmail\": \"janedoe@example.com\",\n    \"addressLine1\": \"987 Park Place\",\n    \"city\": \"Austin\",\n    \"state\": \"Texas\",\n    \"country\": \"United States\",\n    \"zipCode\": \"78726\",\n    \"adminFirstName\": \"Jane\",\n    \"adminLastName\": \"Doe\",\n    \"adminEmail\": \"janedoe@example.com\",\n    \"adminPhoneNumber\": \"222-333-4444\",\n    \"channelIds\": [<Channel ID>]\n}",
+							"raw": "{\n    \"companyName\": \"Jane's Widgets\",\n    \"companyPhone\": \"111-222-3333\",\n    \"companyEmail\": \"janedoe@example.com\",\n    \"addressLine1\": \"987 Park Place\",\n    \"city\": \"Austin\",\n    \"state\": \"Texas\",\n    \"country\": \"United States\",\n    \"zipCode\": \"78726\",\n    \"adminFirstName\": \"Jane\",\n    \"adminLastName\": \"Doe\",\n    \"adminEmail\": \"janedoe@example.com\",\n    \"adminPhoneNumber\": \"222-333-4444\",\n    \"channelIds\": [{{storefront_channel_id}}]\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -2234,7 +2234,7 @@
 						],
 						"body": {
 							"mode": "raw",
-							"raw": "{\n    \"companyId\": <Company ID>,\n    \"email\": \"jilldoe@example.com\",\n    \"firstName\": \"Jill\",\n    \"lastName\": \"Doe\",\n    \"phoneNumber\": \"444-777-9999\",\n    \"companyRoleId\": <Junior Buyer role ID>,\n    \"channelIds\": [<Channel ID>]\n}",
+							"raw": "{\n    \"companyId\": <Company ID>,\n    \"email\": \"jilldoe@example.com\",\n    \"firstName\": \"Jill\",\n    \"lastName\": \"Doe\",\n    \"phoneNumber\": \"444-777-9999\",\n    \"companyRoleId\": <Junior Buyer role ID>,\n    \"channelIds\": [{{storefront_channel_id}}]\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -2321,7 +2321,7 @@
 						],
 						"body": {
 							"mode": "raw",
-							"raw": "{\n    \"companyId\": <Company ID>,\n    \"email\": \"jilldoe@example.com\",\n    \"firstName\": \"Jill\",\n    \"lastName\": \"Doe\",\n    \"phoneNumber\": \"444-777-9999\",\n    \"role\": 2,\n    \"channelIds\": [<Channel ID>]\n}",
+							"raw": "{\n    \"companyId\": <Company ID>,\n    \"email\": \"jilldoe@example.com\",\n    \"firstName\": \"Jill\",\n    \"lastName\": \"Doe\",\n    \"phoneNumber\": \"444-777-9999\",\n    \"role\": 2,\n    \"channelIds\": [{{storefront_channel_id}}]\n}",
 							"options": {
 								"raw": {
 									"language": "json"
