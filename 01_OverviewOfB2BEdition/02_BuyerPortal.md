@@ -1,4 +1,4 @@
-# Default Buyer Portal Settings
+# Buyer Portal
 
 ## General Styles
 
