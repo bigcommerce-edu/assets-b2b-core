@@ -6,7 +6,7 @@
 * [Company Management](https://docs.bigcommerce.com/developer/b2b-edition/apis/rest-management/company)
 * [Create a Company](https://docs.bigcommerce.com/developer/b2b-edition/apis/rest-management/company#create-a-company)
 * [Bulk Create Companies](https://docs.bigcommerce.com/developer/b2b-edition/apis/rest-management/company#bulk-create-companies)
-* [Price Lists](https://docs.bigcommerce.com/developer/docs/rest-management/price-lists#get-all-price-lists)
+* [Price Lists](https://docs.bigcommerce.com/developer/api-reference/rest/admin/management/price-lists#get-all-price-lists)
 * [Company Roles](https://docs.bigcommerce.com/developer/b2b-edition/apis/rest-management/company/company-roles-and-permissions#get-company-roles)
 * [Bulk Create Users](https://docs.bigcommerce.com/developer/b2b-edition/apis/rest-management/user#bulk-create-company-user)
 * [Company Roles and Permissions](https://docs.bigcommerce.com/developer/b2b-edition/apis/rest-management/company/company-roles-and-permissions)
